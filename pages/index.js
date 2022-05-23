@@ -101,7 +101,7 @@ export default function Home({ allProductsData }) {
 
                 <div className='row mt-3'>
                   {allProductsData.map((product) => {
-                    return <div className='col-lg-6 mb-4'><Product title={product.title} price={product.price} image={product.image} /></div>;
+                    return <div className='col-lg-6 mb-4'><Product key={product.id} title={product.title} price={product.price} image={product.image} /></div>;
                   })}
                 </div>
 

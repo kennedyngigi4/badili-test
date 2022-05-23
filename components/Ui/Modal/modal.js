@@ -31,12 +31,12 @@ export default function Modal(){
 
                 <p className='pt-3'>Some content will be coming here. Some content will be coming here. Some content will be coming here.</p>
 
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Details</a>
+                <ul className="nav nav-tabs">
+                    <li className="nav-item">
+                        <a className="nav-link active" aria-current="page" href="#">Details</a>
                     </li>
-                    <li class="nav-item ps-5">
-                        <a class="nav-link" href="#">Reviews(32)</a>
+                    <li className="nav-item ps-5">
+                        <a className="nav-link" href="#">Reviews(32)</a>
                     </li>
                 </ul>
 
@@ -44,7 +44,7 @@ export default function Modal(){
 
             <div className='row mt-4'>
                 <div className='col-4 mt-2'>
-                    <i class={`${styles.favorite} bi bi-suit-heart-fill text-danger text-center`}></i>
+                    <i className={`${styles.favorite} bi bi-suit-heart-fill text-danger text-center`}></i>
                 </div>
                 <div className='col-8'>
                     <div className='d-grid mt-3'>

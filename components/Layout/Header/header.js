@@ -26,9 +26,9 @@ export default function Header(){
                     </ul>
                 </div>
                 <div className='justify-content-end pe-3'>
-                    <i class="bi bi-basket px-3 fs-4"></i>
-                    <i class="bi bi-suit-heart px-3 fs-4"></i>
-                    <i class="bi bi-person-circle px-3 fs-4"></i>
+                    <i className="bi bi-basket px-3 fs-4"></i>
+                    <i className="bi bi-suit-heart px-3 fs-4"></i>
+                    <i className="bi bi-person-circle px-3 fs-4"></i>
                 </div>
             </div>
         </nav>
