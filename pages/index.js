@@ -100,9 +100,12 @@ export default function Home({ allProductsData }) {
                 </div>
 
                 <div className='row mt-3'>
-                  {allProductsData.map((product) => {
-                    return <div className='col-lg-6 mb-4'><Product key={product.id} title={product.title} price={product.price} image={product.image} /></div>;
-                  })}
+                  {allProductsData.map((product) => 
+                    <div className='col-lg-6 mt-4' key={product.id}>
+                      <Product key={product.id} title={product.title} price={product.price} image={product.image} />
+                    </div>
+                    
+                  )}
                 </div>
 
 
