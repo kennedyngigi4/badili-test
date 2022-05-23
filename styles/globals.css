@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.search{
+  background-color: #f2f2f2;
+}

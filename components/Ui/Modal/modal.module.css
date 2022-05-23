@@ -1,0 +1,15 @@
+.close{
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.set_price_btn{
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+.favorite{
+    font-size: 30px;
+}

@@ -1,0 +1,23 @@
+.mainNav{
+    background-color: #ffffff;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+
+.top_menu_links{
+    padding: 0 0 6px 0;
+    margin: 0 15px 0 15px;
+    color: #808080;
+}
+
+.active{
+    color: #000000;
+    border-bottom: 3px solid #f09;
+}
+
+.top_menu_links:focus{
+    color: #000000;
+    border-bottom: 3px solid #f09;
+}
+
+
